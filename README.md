@@ -1,8 +1,8 @@
-# bui脚手架
+# Gallery
 
 ## 作用
 
-前端开发目录规范
+图片播放
 
 ## 目录说明
 
@@ -15,4 +15,14 @@
 - fat.config.js ----------- fat工具配置文件
 - fis-conf.js ------------- fis3b配置文件
 - fis-remote-conf.js ------ fis3b开发机配置
+```
+
+## 运行准备
+
+* 安装工具[fat](https://github.com/chenjunxyf/fat)
+
+## 运行
+
+```
+fat server
 ```

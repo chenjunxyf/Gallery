@@ -1,0 +1,65 @@
+{% extends 'page/common/base.html' %}
+
+{% block title %}{{title}}{% endblock %} 
+
+{% block link %}
+<link rel="stylesheet" href="/static/style/index.less">
+{% endblock %} 
+
+{% block content %}
+<div class="nav"></div>
+
+<div class="gallery">
+    <div class="g-header">
+        <h2>今日头条赞赞赞</h2>
+        <a href="baidu.com" target="_blank">小小的外边连接</a>
+    </div>
+    <div class="g-tool">
+        <em class="g-time">2016.03.29 00:32:40</em>
+        <div class="g-extra">
+            <span class="tip">a</span>
+            <span class="tip">b</span>
+            <span class="tip">c</span>
+        </div>
+    </div>
+    <div id="tt-slide" class="slide-wrap">
+        <ul class="slide-list">
+            <li class="slide-item">
+                <div class="img-wrap" data-src="http://www.sinaimg.cn/dy/slidenews/1_img/2016_13/2841_674528_592238.jpg">
+                </div>
+            </li>
+            <li class="slide-item">
+                <div class="img-wrap" data-src="http://www.sinaimg.cn/dy/slidenews/1_img/2016_13/2841_674520_366766.jpg">
+                </div>
+            </li>
+            <li class="slide-item">
+                <div class="img-wrap" data-src="/static/image/test/3.jpg">
+                </div>
+            </li>
+            <li class="slide-item">
+                <div class="end-wrap"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="g-txt">
+        <div class="table">
+            <div class="cell">
+                <span class="num">
+                    <em>1</em> / 3
+                </span>
+                <div class="txt">北京二手房市场的新增客源和新增房源分别下降了12.4%和9.4%，其中新增客源已经连续五周下滑。反映了供需双方对当前市场的判</div>
+            </div>
+        </div>
+    </div>
+    <div class="g-nav"></div>
+    <div class="g-bd"></div>
+</div>
+
+{% endblock %} 
+
+{% block script %}
+<script src="/static/js/lib/jquery.js"></script>
+<script src="/static/js/lib/unslider.js"></script>
+<script src="/static/js/index.js"></script>
+{% endblock %}
+
